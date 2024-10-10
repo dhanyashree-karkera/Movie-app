@@ -1,0 +1,11 @@
+<h1>Movie App</h1>
+<div class="main">
+<div *ngFor="let i of movie" class="container">
+    <img [src]="i.Poster" alt="" style="width: 10rem;">
+    <!-- {{i.imdbID}} -->
+     <div class="titleyear">
+    {{i.Title}}
+    {{i.Year}}
+</div>
+</div>
+</div>

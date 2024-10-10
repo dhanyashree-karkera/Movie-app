@@ -1,0 +1,17 @@
+.container{
+    width: 10rem;
+    background-color: #eee6e6;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    gap: 2rem;
+}
